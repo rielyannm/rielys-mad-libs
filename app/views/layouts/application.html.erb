@@ -1,9 +1,6 @@
-
-    <!DOCTYPE html>
+  <!DOCTYPE html>
   <html>
   <head>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
    	 <script src="jquery-1.12.4.min.js"></script>
     <%= csrf_meta_tags %>
@@ -19,19 +16,19 @@
   <body>
   <section class="madlib-container">
 <!-- header to show up on all pages -->
-<div class="row">
-	<section class="small-12 column">
-		<section class="madlib-header row">
-			<div class="small-12 medium-12 large-6 columns">
-			      <%= image_tag "chicktech.png" %>
-			</div>
-			<div class="small-12 medium-12 large-6 columns madlib-title">
-			    <h1>Mad Libs</h1>
-				<h2>A Seattle ChickTech Workshop</h2>
-			</div>
-		</section>
-	</section>
-</div>
+    <div class="row">
+    	<section class="small-12 column">
+    		<section class="madlib-header row">
+    			<div class="small-12 medium-12 large-6 columns">
+    			      <%= image_tag "chicktech.png" %>
+    			</div>
+    			<div class="small-12 medium-12 large-6 columns madlib-title">
+    			    <h1>Mad Libs</h1>
+    				<h2>A Seattle ChickTech Workshop</h2>
+    			</div>
+    		</section>
+    	</section>
+    </div>
     <%= yield %>
   </section>
   </body>
