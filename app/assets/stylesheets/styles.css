@@ -1,8 +1,7 @@
 body {
   font-family: 'Nunito', 'sans-serif'
-  font-size: px;
-  margin-bottom: 3rem
-  ;
+  font-size: 20px;
+  margin-bottom: 3rem;
   background: pink;
 }
 .madlib-container {
@@ -29,7 +28,6 @@ body {
   	font-size: 2.5rem; /*(40px)*/
   	line-height: 6rem; /*(96px)*/
   }
-
   .fill_in_word {
   	background-color: #4CBDC1;
   	color: #D95D91;
