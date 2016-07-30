@@ -1,0 +1,53 @@
+body {
+  font-family: 'Nunito', 'sans-serif'
+  font-size: 20px;
+  margin-bottom: 3px;
+  background: pink;
+}
+.madlib-container {
+	width: 80%;
+	margin: 0 auto; /*centers the page */
+}
+
+/* header styles */
+.madlib-title {
+	text-align: center;
+	margin: .6rem auto 1rem auto; /*(9.6px auto 16px auto) */
+}
+.madlib-title h1{
+	font-family: 'Neuton', serif;
+	font-size: 4rem; /*(64px)*/
+}
+
+.madlib-title h2{
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.4rem;/*(22.4px)*/
+	margin-top: -.8rem; /*(-12.8px)*/
+	margin-bottom: 1rem; /*(16px)*/
+  .madlib-body {
+  	font-size: 2.5rem; /*(40px)*/
+  	line-height: 6rem; /*(96px)*/
+  }
+
+  .fill_in_word {
+  	background-color: #4CBDC1;
+  	color: #D95D91;
+  	padding-right: .25rem; /*(4px)*/
+  	padding-left: .25rem; /*(4px)*/
+  	font-family: 'Walter Turncoat', cursive;
+  }
+
+  /*override foundation button colors and font */
+
+  .button{
+  	background-color: #D95D91;
+  	color: #4CBDC1;
+  	text-align: center;
+  	font-family: 'Walter Turncoat', cursive;
+  	font-size: 2.5rem; /*(40px)*/
+  }
+
+  .button:hover {
+  	background-color: #4CBDC1;
+  	color: #D95D91;
+}
